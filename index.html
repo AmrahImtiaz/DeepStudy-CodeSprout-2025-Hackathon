@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudyVerse - Pomodoro Session</title>
+  <link rel="stylesheet" href="style.css" />
+   <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/1200x/48/8c/3d/488c3d2ff60ce74dff843d578b2a615d.jpg">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="player">
+    <div class="gifplay">
+      <img id="song-image" src="images/1.gif" alt="Song Image" />
+      <div id="timer-display">25:00</div>
+    </div>
+
+    <div class="timer-controls">
+      <label>Study: <input id="study-mins" type="number" value="25" min="1" /></label>
+      <label>Break: <input id="break-mins" type="number" value="5" min="1" /></label>
+      <span id="timer-phase">Study Time</span>
+    </div>
+
+    <audio id="audio-player" controls loop>
+      <source src="music/song1.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="controls">
+      <button onclick="prevSong()">⏮ Prev</button>
+      <button onclick="nextSong()">Next ⏭</button>
+      <button onclick="toggleLoop()">🔁 Loop</button>
+      <button onclick="toggleASMR('rain')">🌧 Rain</button>
+      <button onclick="toggleASMR('keyboard')">⌨️ Keyboard</button>
+      <button onclick="toggleASMR('fire')">Rain</button>
+      <button onclick="toggleASMR('brownnoise')">Brown Noise</button>
+      <button onclick="startPomodoro()">▶️ Start</button>
+      <button onclick="resetPomodoro()">⏹ Reset</button>
+    </div>
+
+    <div class="streak-box">
+      <p>🔥 Streak: <span id="streak-count">0</span></p>
+    </div>
+
+    <div class="quote-box" id="quote-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

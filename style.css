@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+/* Player Container */
+.player {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+/* GIF Container with Timer */
+.gifplay {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.gifplay img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+#timer-display {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Audio Player */
+audio {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.controls button {
+  padding: 10px 16px;
+  background-color: #2e2e2e;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: #444;
+  transform: scale(1.05);
+}
+
+/* Streak & Quote */
+.streak-box {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #fca311;
+}
+
+.quote-box {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ccc;
+}
