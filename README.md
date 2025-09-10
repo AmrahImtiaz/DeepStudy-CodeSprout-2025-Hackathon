@@ -9,7 +9,7 @@ With a simple and calming interface, you can:
 ☕ Take breaks with a break timer
 💡 Get motivational quotes to stay inspired
 
-##✨ Features
+## Features
 
 Focus Timer: Set study intervals with the classic Pomodoro method.
 
@@ -21,18 +21,18 @@ Motivational Quotes: A fresh dose of inspiration every session.
 
 Minimal UI: Clean design to avoid distractions.
 
-##🚀 Getting Started
+## Getting Started
 
 Clone the repo:
 
 git clone 
 cd deepstudy
 
-##📸 Screenshots
+## Screenshots
 
 <img width="2106" height="1245" alt="image" src="https://github.com/user-attachments/assets/88aab7d9-f698-45b4-99a8-8d2baf2fbec0" />
 
-## 🎯 Why DeepStudy?
+## Why DeepStudy?
 
 Studying can feel overwhelming. DeepStudy combines science-backed focus techniques, calming background sounds, and motivational reminders to keep you on track without feeling burned out.
 
