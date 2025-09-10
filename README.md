@@ -30,6 +30,7 @@ cd deepstudy
 
 ##📸 Screenshots
 
+<img width="2106" height="1245" alt="image" src="https://github.com/user-attachments/assets/88aab7d9-f698-45b4-99a8-8d2baf2fbec0" />
 
 ## 🎯 Why DeepStudy?
 
