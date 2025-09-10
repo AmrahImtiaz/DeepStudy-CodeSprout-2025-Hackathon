@@ -1,40 +1,40 @@
-DeepStudy 🎧⏳
+# DeepStudy 🎧⏳
 
 DeepStudy is a distraction-free Pomodoro-style study app designed to help students stay focused and motivated while studying.
 
 With a simple and calming interface, you can:
 
-🎵 Play rain noise, brown noise, or white noise in the background
+### 🎵 Play rain noise, brown noise, or white noise in the background
 
-⏳ Use a built-in Pomodoro timer for study sessions
+### ⏳ Use a built-in Pomodoro timer for study sessions
 
-☕ Take breaks with a break timer
+### ☕ Take breaks with a break timer
 
-💡 Get motivational quotes to stay inspired
+### 💡 Get motivational quotes to stay inspired
 
-✨ Features
+##✨ Features
 
-Focus Timer: Set study intervals with the classic Pomodoro method.
+### Focus Timer: Set study intervals with the classic Pomodoro method.
 
-Break Timer: Balance focus with rest using customizable break times.
+### Break Timer: Balance focus with rest using customizable break times.
 
-Background Sounds: Choose between rain, brown noise, or white noise for better concentration.
+### Background Sounds: Choose between rain, brown noise, or white noise for better concentration.
 
-Motivational Quotes: A fresh dose of inspiration every session.
+### Motivational Quotes: A fresh dose of inspiration every session.
 
-Minimal UI: Clean design to avoid distractions.
+### Minimal UI: Clean design to avoid distractions.
 
-🚀 Getting Started
+##🚀 Getting Started
 
 Clone the repo:
 
 git clone 
 cd deepstudy
 
-📸 Screenshots
+##📸 Screenshots
 
 
-🎯 Why DeepStudy?
+## 🎯 Why DeepStudy?
 
 Studying can feel overwhelming. DeepStudy combines science-backed focus techniques, calming background sounds, and motivational reminders to keep you on track without feeling burned out.
 
